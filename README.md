@@ -1,7 +1,6 @@
+# This repo has been abandoned. However, the contents still apply, it just won't ever be expanded by me.
 # Awesome-Splatoon3-Hacking
 repo containing resources to learn splatoon 3 hacking/modding
-
-THIS REPO IS A HUGE W.I.P. and it is very unfinished. Its my side side project when i literally have nothing else to work on
 
 if at any point you feel stuck or need help, feel free to join [the splatoon modding discord server](https://discord.gg/P6RNNvk)
 
