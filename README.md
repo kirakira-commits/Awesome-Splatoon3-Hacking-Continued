@@ -1,6 +1,6 @@
-# This repo has been abandoned. However, the contents still apply, it just won't ever be expanded by me.
+# The original repo has been abandoned. This is a fork of the original repo and i will try my best to update this one
 # Awesome-Splatoon3-Hacking
-repo containing resources to learn splatoon 3 hacking/modding
+fork of the repo containing resources to learn splatoon 3 hacking/modding by desperc
 
 if at any point you feel stuck or need help, feel free to join [the splatoon modding discord server](https://discord.gg/P6RNNvk)
 
@@ -10,15 +10,15 @@ This will not teach you to use mods/hacks online as that is unsafe. There might 
 
 
 # Table of Contents
-- [Getting Started](https://github.com/DesperC/Awesome-Splatoon3-Hacking/blob/main/README.md#getting-started)
-- [Essentials/Requirements](https://github.com/DesperC/Awesome-Splatoon3-Hacking/blob/main/README.md#essentialsrequirements)
-  - [Texture Replacement (Old)](https://github.com/DesperC/Awesome-Splatoon3-Hacking/blob/main/README.md#texture-replacement-old)
-  - [Texture Replacement](https://github.com/DesperC/Awesome-Splatoon3-Hacking/blob/main/README.md#texture-replacement)
-  - [Model Replacement](https://github.com/DesperC/Awesome-Splatoon3-Hacking/blob/main/README.md#model-replacement)
-  - [Text Replacement](https://github.com/DesperC/Awesome-Splatoon3-Hacking/blob/main/README.md#text-replacement)
-  - [Audio Replacement](https://github.com/DesperC/Awesome-Splatoon3-Hacking/blob/main/README.md#audio-replacement)
-- [Dumping RomFS](https://github.com/DesperC/Awesome-Splatoon3-Hacking/blob/main/README.md#dumping-romfs)
-  - [Using an Emulator](https://github.com/DesperC/Awesome-Splatoon3-Hacking/blob/main/README.md#emulator-beginner-reccomended-required-if-you-arent-using-switch)
+- [Getting Started](https://github.com/kirakira-commits/Awesome-Splatoon3-Hacking-Continued/blob/main/README.md#getting-started)
+- [Essentials/Requirements](https://github.com/kirakira-commits/Awesome-Splatoon3-Hacking-Continued/blob/main/README.md#essentialsrequirements)
+  - [Texture Replacement (Old)](https://github.com/kirakira-commits/Awesome-Splatoon3-Hacking-Continued/blob/main/README.md#texture-replacement-old)
+  - [Texture Replacement](https://github.com/kirakira-commits/Awesome-Splatoon3-Hacking-Continued/blob/main/README.md#texture-replacement)
+  - [Model Replacement](https://github.com/kirakira-commits/Awesome-Splatoon3-Hacking-Continued/blob/main/README.md#model-replacement)
+  - [Text Replacement](https://github.com/kirakira-commits/Awesome-Splatoon3-Hacking-Continued/blob/main/README.md#text-replacement)
+  - [Audio Replacement](https://github.com/kirakira-commits/Awesome-Splatoon3-Hacking-Continued/blob/main/README.md#audio-replacement)
+- [Dumping RomFS](https://github.com/kirakira-commits/Awesome-Splatoon3-Hacking-Continued/blob/main/README.md#dumping-romfs)
+  - [Using an Emulator](https://github.com/kirakira-commits/Awesome-Splatoon3-Hacking-Continued/blob/main/README.md#emulator-beginner-reccomended-required-if-you-arent-using-switch)
   - [Using a Switch](https://github.com/DesperC/Awesome-Splatoon3-Hacking/blob/main/README.md#switch-not-for-beginners)
 - [Exporting, Editing, and Importing Save Files](https://github.com/DesperC/Awesome-Splatoon3-Hacking/blob/main/README.md#exporting-editing-and-importing-save-files)
 - [How to use/install mods](https://github.com/DesperC/Awesome-Splatoon3-Hacking/blob/main/README.md#how-to-useinstall-mods)
@@ -26,13 +26,16 @@ This will not teach you to use mods/hacks online as that is unsafe. There might 
 - [Your First Mod (Tutorial)](https://github.com/DesperC/Awesome-Splatoon3-Hacking/blob/main/README.md#your-first-mod-tutorial)
 
 # Getting Started
-This section originally contained links to setting up a hacked switch and emulator but both have been removed due to piracy. Neither of them are hard to find though
+This section originally contained links to setting up a hacked switch and emulator but both have been removed due to piracy. Neither of them are hard to find though, just don't download them from suspicious links
+
+there are tons of switch hacking/modding tutorials, find one online, but first use the below website to check if your switch can fusee-gelee:
+[Ismyswitchpatched?](https://ismyswitchpatched.com/)
+if your prefix isn't on the list or the websites says your switch is patched, try hardmodding, also tons of tutorials online and you can also pay some people to do it if you don't know hhow to do it yourself
 
 # Essentials/Requirements
-These are things you need get to help you on your hacking journey. These are all for game modding and NOT for hacking your switch and setting up custom firmware (CFW). For a guide on setting up your switch with CFW, see above section.
-
-- [Flexlion Mod Menu](https://flexlion.github.io/)
-- [Splatoon 3 Save Editor (from flexlion)](https://flexlion.github.io/saveeditor.html)
+These are things you need get to help you on your hacking journey. These are all for game modding and NOT for hacking your switch and setting up custom firmware (CFW).
+- [Flexlion Mod Menu](https://gamebanana.com/wips/70362) go to bottom of page for downloads
+- [Splatoon 3 Save Editor (from flexlion)](https://flexlion.github.io/saveeditor.html) this haven't been working for me lately, feel free to ask me for saves
 - [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox)
 - [7-Zip](https://www.7-zip.org/) I would highly reccomend that you set 7-Zip as your main archiving app so it will open .zip files by default
 - [A Full Splatoon 3 Save](https://ptb.discord.com/channels/410208534861447168/830855276437438485/1081218616734793738) (you can skip this if your save already has everything you want AND you know how to export the save as a file using EdiZon) if you cant get to the file, you need to join the [Ryujinx discord server](https://discord.gg/ryujinx) to get it even if you arent using Ryujinx. It will work on both an emulator and the switch.
@@ -63,25 +66,22 @@ Kuriimu 2 is a more permanant, install while Kuriimu is a lighter, portable solu
 - Audio Editor. I use [Audacity](https://www.audacityteam.org)
 
 # Dumping romfs
-
 ### Emulator (Beginner reccomended) (Required if you arent using switch)
 (Make sure you have any updates/DLC you want installed as an NSP) Right click the game and click "Dump RomFS" **Make sure to remember where you dumped these files or put them in a place you will remember.**
 
 ### Switch (Not for beginners)
 you need Lockpick RCM and Nxdumptool
-
-im not allowed to link LockpickRCM but you can find it so many places here on github. just search it and download te .bin file
+- [nxdumptool](https://github.com/DarkMatterCore/nxdumptool/releases)
+im not allowed to link LockpickRCM but you can find it so many places here on github. just search it and download the .bin file
 
 then watch[ this video](https://www.youtube.com/watch?v=mKw2ips97og) on how to use it
-
-once you finish that, download [Nxdumptool nro file](https://github.com/DarkMatterCore/nxdumptool/releases)
 
 then watch [this video](https://www.youtube.com/watch?v=BZpK2JT8lcI) on how to use that
 
 only reason i dont explain myself is because this guide is focused on how to mod the game rather than the setup
 
 # Exporting, Editing, and Importing Save Files
-First ya gotta obtain a save file. you can get your own save file to hack **OR** download the one in the [essential downloads](https://github.com/DesperC/Awesome-Splatoon3-Hacking/blob/main/README.md#essentials)
+First ya gotta obtain a save file. you can get your own save file to hack **OR** download the one in the [essential downloads](https://github.com/kirakira-commits/Awesome-Splatoon3-Hacking-Continued/blob/main/README.md#essentials)
 
 If you're going to use your own save file [download the EdiZon NRO file](https://github.com/WerWolv/EdiZon/releases/tag/v3.1.0)
 
